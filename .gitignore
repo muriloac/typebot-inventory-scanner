@@ -1,0 +1,52 @@
+# Configurações do ambiente (contém chaves e dados sensíveis)
+.env
+
+# Arquivos de captura de rede (podem conter cookies de login, tokens ou CPFs)
+*.har
+
+# Histórico/cache local gerado pelo script
+estoque_historico.json
+
+# Detalhes produtos gerado pelo script
+detalhes_produtos.json
+
+# Caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+pip-selfcheck.json
+
+# Configurações de IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
